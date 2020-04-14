@@ -48,3 +48,9 @@
 		  75%  {left:0%; top:40%;}
 		  100% {left:22%; top:0%;}
 		}
+@media screen and (min-width: 100px) and (max-width: 480px) {
+  .pc-img {
+    background-image : url("mobbg.jpg");
+	  background-size : cover;
+  }
+}
