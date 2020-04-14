@@ -34,7 +34,7 @@
 			left : 22%;
 			position : absolute;
 			animation-name: example;
-		  	animation-duration: 4s;
+		  	animation-duration: 8s;
 		  	animation-iteration-count: infinite;
 		 }
 		@keyframes example {
