@@ -10,7 +10,7 @@
 			margin: 0;
 			hieght : 100%;
 			background-size: cover;
-			background-image: url("bg.jpg");
+			
 		}
 		
 
@@ -43,9 +43,25 @@
 		  75%  {left:0%; top:40%;}
 		  100% {left:22%; top:0%;}
 		}
-@media screen and (min-width: 100px) and (max-width: 480px) {
+@media (max-width: 300px) {
   body {
-    background-image : url("mobbg.jpg");
-	  background-size : cover;
+    
+    background-image: image-url("mobbg.jpg");
+  }
+}
+@media (min-width: 301px) and (max-width: 600px) {
+  body {
+    
+    background-image: image-url("mobbg.jpg");
+  }
+}
+@media (min-width: 601px) and (max-width: 768px) {
+  body {
+    background-image: image-url("mobbg.jpg");
+  }
+}
+@media (min-width: 769px) {
+  body {
+    background-image: image-url("bg.jpg");
   }
 }
