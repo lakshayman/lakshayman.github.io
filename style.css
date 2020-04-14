@@ -8,16 +8,11 @@
 		body{
 			font-family: 'Product Sans';
 			margin: 0;
+			hieght : 100%;
 			background-size: cover;
 			background-image: url("bg.jpg");
 		}
-		.container-fluid{
-			width: 100%;
-			padding-right: 0px;
-			padding-left: 0px;
-			margin-left: auto;
-			margin-right: auto;
-		}
+		
 
 		h1{
 			text-shadow: 0 1px 0 #ccc,
