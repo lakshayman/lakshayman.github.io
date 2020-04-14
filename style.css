@@ -5,12 +5,13 @@
 			src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
 		}
 
+
+
 		body{
 			font-family: 'Product Sans';
 			margin: 0;
-			background-image: url("mobbg.jpg");
 			background-size: cover;
-			
+			background-image: url("mobbg.jpg");
 		}
 		
 
@@ -43,4 +44,3 @@
 		  75%  {left:0%; top:40%;}
 		  100% {left:22%; top:0%;}
 		}
-
