@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.container{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+section{
+  scroll-snap-align: start;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.intro video {
+  width: 100%;
+  object-fit: cover;
+}
+
+.rowflex{
+  display: flex;
+  justify-content: center;
+  font-size: 5vw;
+}
+
+.rowflex h1{
+  margin-top: 30px;
+  cursor: default;
+  transition-duration: .4s;
+  color: #91B2C7;
+}
+
+.rowflex h1:hover{
+  transform: scaleY(1.1);
+}
+
+.colflex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 5vw;
+}
+
+.colflex h1{
+  margin-top: 30px;
+  cursor: default;
+  transition-duration: .4s;
+  color: #91B2C7;
+}
+
+.section1 {
+  background-color: #232b2b;
+}
+
+.section2 {
+  background-color: #282828;
+}
+
+.HH2{
+  color: #92D293;
+  font-size: 3vw;
+  margin: 5rem;
+}
+
+.hh3{
+  float: right;
+  margin-right: 10%;
+  word-spacing: 5px;
+}
+
+.resumeheading{
+  color: #91B2C7;
+  word-spacing: 5px;
+  transition-duration: .4s;
+  cursor: default;
+  font-size: 3vw;
+  margin: 5rem;
+}
+
+.resumeheading:hover{
+  transform: scaleY(1.1);
+}
+
+.resumeimg{
+  float: right;
+  margin-right: 20%;
+  border: 10px solid white;
+  border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
+}
+
+.image{
+  border: 10px solid white;
+  border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
+}
+
+.section3 {
+  background-color: #6f2232;
+}
+
+.section4{
+  background-color: #5d001e;
+}
+
+.section5{
+  background-color: #7e685a;
+}
+
+.section6{
+  background-color: #1f2833;
+}
+
+.section7{
+  background-color: #123c69;
+}
+
+.section8{
+  background-color: #116466;
+}
+
+.section9{
+  background-color: #747474;
+}
+
+.projecth{
+  color: #91B2C7;
+  word-spacing: 5px;
+  transition-duration: .4s;
+  cursor: default;
+  font-size: 8vw;
+  margin: 5rem;
+}
+
+.projecth:hover{
+  transform: scaleY(1.1);
+}
+
+.projecttext{
+  word-spacing: 5px;
+  float: right;
+  margin-right: 20%;
+  font-size: 2vw;
+}
+
+.projectdesc{
+  word-spacing: 5px;
+  float: right;
+  font-size: 1vw;
+  margin-top: 5%;
+}
+
+.projecttitle{
+  color: #91B2C7;
+  word-spacing: 5px;
+  transition-duration: .4s;
+  cursor: default;
+  font-size: 4vw;
+  margin: 5rem;
+}
+
+.projecttitle:hover{
+  transform: scaleY(1.1);
+}
+
+.abouttext1{
+  margin: 2rem;
+  width: 25%;
+  word-spacing: 5px;
+  left: 5%;
+}
+
+.abouttext2{
+  margin: 2rem;
+  width: 25%;
+  word-spacing: 5px;
+  left: 35%;
+}
+
+.abouttext3{
+  margin: 2rem;
+  width: 25%;
+  word-spacing: 5px;
+  left: 65%;
+  margin-top: -25%;
+}
+
+.w{
+  position: relative;
+  left: 90%;
+  margin-top: 2%;
+  transform: scale(2);
+}
+
+.flexdiv{
+  display: flex;
+  justify-content: space-around;
+}
+
+.badge-base{
+  float: right;
+  margin-right: 20%;
+  margin-top: -5%;
+}
+
+.float{
+  top: 10px;
+  position: relative;
+  color: #92D293;
+  animation: float 3.5s infinite ease-in-out;
+}
+
+@keyframes float {
+  50% {
+      top: 20px;
+  }    
+  100% { 
+      top: 10px;
+  }
+}
+
+.mobilecontainer{
+  display: none;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: #92D293;
+  background-color: #1f2833;
+  font-size: 4vw;
+}
+
+@media only screen and (max-width: 900px) {
+  .container{
+    display: none;
+  }
+  .mobilecontainer{
+    display: flex;
+  }
+}
