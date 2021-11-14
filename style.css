@@ -16,7 +16,7 @@ body {
 
 section{
   scroll-snap-align: start;
-  height: -webkit-fill-available;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -263,7 +263,7 @@ section{
   .hiddendiv{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     height: 100%;
     width: 100%;
