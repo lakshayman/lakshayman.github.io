@@ -15,22 +15,29 @@
   <body>
     <div class="container">
       <section class="intro">
-        <video src="Introfinal.webm" autoplay=true muted="muted" loop=true></video>
+        <div class="hiddendiv">
+          <p class="hiddenp">I am glad you are here!</p>
+          <video src="Introfinal.webm" autoplay=true muted="muted" loop=true></video>
+        </div>
       </section>
       <section class="section2">
-        <h1 class="resumeheading">WANNA CHECKOUT MY RESUME</h1>
-        <a href="/Resume.pdf" target="_blank">
-          <img class="float resumeimg" src="resume.PNG" height="50%">
-        </a>
+        <div class="hiddendiv">
+          <h1 class="resumeheading">WANNA CHECKOUT MY RESUME</h1>
+          <a class="adiv" href="/Resume.pdf" target="_blank">
+            <img class="float resumeimg" src="resume.PNG">
+          </a>
+        </div>
       </section>
       <section class="section3">
-        <p class="float" style="position: absolute; left: 90%;">Scroll Down</p>
-        <h1 class="projecth">PROJECTS</h1>
-        <p class="float projecttext">
-            PLEASE HAVE A SEAT,<br>
-            SCROLL DOWN & I'LL<br>
-            GET YOU MY PROJECTS
-        </p>
+        <p class="float" style="display:none;position: absolute; left: 90%;">Scroll Down</p>
+        <div class="hiddendiv">
+          <h1 class="projecth">PROJECTS</h1>
+          <p class="float projecttext">
+              PLEASE HAVE A SEAT,<br>
+              SCROLL DOWN & I'LL<br>
+              GET YOU MY PROJECTS
+          </p>
+        </div>
       </section>
       <section class="section4">
         <div class="flexdiv">
@@ -45,16 +52,16 @@
         </div>
         <div class="flexdiv">
           <a href="https://lakshaymanchanda.me/MoviesApp/#/" target="_blank" style="text-align: center;">
-            <img class="float image" src="p1s.PNG" width="80%">
+            <img class="float image" src="p1s.PNG">
           </a>
           <a href="https://github.com/lakshayman/MoviesApp" target="_blank" style="text-align: center;">
-            <img class="float image" src="p1.PNG" width="80%">
+            <img class="float image" src="p1.PNG">
           </a>
         </div>
       </section>
       <section class="section5">
         <div class="flexdiv">
-          <h1 class="projecttitle" style="font-size: 3vw;">MULTIPLAYER TIC-TAC-TOE</h1>
+          <h1 class="projecttitle mtitle">MULTIPLAYER TIC-TAC-TOE</h1>
           <p class="float projectdesc">
             A  MULTIPLAYER GAME<br>
             MADE WITH REACT, NODEJS, EXPRESS.<br>
@@ -65,10 +72,10 @@
         </div>
         <div class="flexdiv">
           <a href="https://lakshaymanchanda.me/Multiplayertictactoe/#/" target="_blank" style="text-align: center;">
-            <img class="float image" src="p2s.PNG" width="80%">
+            <img class="float image" src="p2s.PNG">
           </a>
           <a href="https://github.com/lakshayman/Multiplayertictactoe" target="_blank" style="text-align: center;">
-            <img class="float image" src="p2.PNG" width="80%">
+            <img class="float image" src="p2.PNG">
           </a>
         </div>
       </section>
@@ -84,42 +91,50 @@
         </div>
         <div class="flexdiv">
           <a href="https://lakshaymanchanda.me/NodeChat/#/" target="_blank" style="text-align: center;">
-            <img class="float image" src="p3s.PNG" width="80%">
+            <img class="float image" src="p3s.PNG">
           </a>
           <a href="https://github.com/lakshayman/NodeChat" target="_blank" style="text-align: center;">
-            <img class="float image" src="p3.PNG" width="80%">
+            <img class="float image" src="p3.PNG">
           </a>
         </div>
       </section>
       <section class="section7">
-        <div class="rowflex">
-          <h1 style="font-size: 3vw;">FOR MORE PROJECTS CHECKOUT MY GITHUB :</h1>
+        <div class="flexdiv">
+          <div class="rowflex">
+            <h1 class="mtitle m">FOR MORE PROJECTS CHECKOUT MY GITHUB :</h1>
+          </div>
+          <a href="https://github.com/lakshayman" target="_blank" style="text-align: center;">
+            <img class="float image smaller" src="github.PNG">
+          </a>
         </div>
-        <div class="github-profile-badge w float" data-user="lakshayman"></div>
-        <p style="color: #92D293;margin-left: 20%;margin-top: 8%;font-size: 3vw;">WANNA CONNECT : </p>
-        <a href="https://www.linkedin.com/in/lakshayman/" target="_blank" style="text-align: center;">
-          <img class="float image badge-base" src="linkedin.PNG" height="30%">
-        </a>
+        <div class="flexdiv">
+          <p class="mtitle m" style="color: #92D293;margin: 1vw;">WANNA CONNECT : </p>
+          <a href="https://www.linkedin.com/in/lakshayman/" target="_blank" style="text-align: center;">
+            <img class="float image smaller" src="linkedin.PNG">
+          </a>
+        </div>
       </section>
       <section class="section1">
-        <div class="rowflex">
-          <h1>ABOUT</h1><h1>&nbsp;</h1><h1>ME</h1>
+        <div class="hiddendiv">
+          <div class="rowflex">
+            <h1>ABOUT</h1><h1>&nbsp;</h1><h1>ME</h1>
+          </div>
+          <p class="float abouttext1">
+            HEY, I'M LAKSHAY<br>
+            A DEVELOPER FROM DELHI, INDIA<br>
+            LOOKING FOR COOL NEW INTERNSHIP OPPORTUNITIES
+          </p>
+          <p class="float abouttext2">
+            I AM A PROUD GEEK<br>
+            OBSESSED WITH LEARNING NEW STUFF AT SPEED<br>
+            I AM A DEVELOPER WHO PREFERS WEB DEVELOPMENT
+          </p>
+          <p class="float abouttext3">
+            I AM CURRENTLY IN 3RD YEAR<br>
+            PURSUING B TECH IN IT BRANCH<br>
+            FROM "A COLLEGE"
+          </p>
         </div>
-        <p class="float abouttext1">
-          HEY, I'M LAKSHAY<br>
-          A DEVELOPER FROM DELHI, INDIA<br>
-          LOOKING FOR COOL NEW INTERNSHIP OPPORTUNITIES
-        </p>
-        <p class="float abouttext2">
-          I AM A PROUD GEEK<br>
-          OBSESSED WITH LEARNING NEW STUFF AT SPEED<br>
-          I AM A DEVELOPER WHO PREFERS WEB DEVELOPMENT
-        </p>
-        <p class="float abouttext3">
-          I AM CURRENTLY IN 3RD YEAR<br>
-          PURSUING B TECH IN IT BRANCH<br>
-          FROM "A COLLEGE"
-        </p>
       </section>
       <section class="section8">
           <h1 class="projecttitle">WANT TO WORK TOGETHER?</h1>
@@ -138,7 +153,6 @@
         </a>
         <p style="margin: 5rem;word-spacing: 5px;">Mail To: lakshaymanchanda73@gmail.com</p>
     </section>
-      <script src="https://cdn.jsdelivr.net/gh/Rapsssito/github-profile-badge@latest/src/widget.min.js"></script>
     </div>
     <div class="mobilecontainer">
       CURRENTLY VIEW FOR SMALLER<br>
