@@ -16,7 +16,7 @@ body {
 
 section{
   scroll-snap-align: start;
-  height: 100vh;
+  height: -webkit-fill-available;
   overflow: hidden;
 }
 
